@@ -1,0 +1,747 @@
+*{  margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/photo\ 1er\ section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+}
+.section1-overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0, 0.5);
+ 
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(1, 152, 117);
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    opacity: 0.7;
+    z-index: 35; 
+}
+.logo {
+    margin-left: 50px;
+    float: left;
+}
+.link li{
+    display:inline-block;
+    font-size: 25;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 20;  
+  }
+.link {
+    list-style-type: none;
+    float: right;
+    margin: 10 50;      
+}
+.link li a{
+    text-decoration: none;
+    color: white;
+}
+.section1-info h1 {
+    text-transform: uppercase;
+    padding-bottom: 20;
+}
+.section1-info p {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    word-spacing: 3px;
+}
+.section1-info button {
+    width: 120;
+    height: 55;
+    border: 0;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20;
+    opacity: 1;
+ }
+.section1-info .btn2 {
+    background-color: rgb(1, 152, 117);
+    color: white;
+    margin-left: 20;
+}
+.section1-info {
+    color: white;
+    width: 1000px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section1-info button:hover{
+    opacity: 0.8;
+}
+/* ///////////////////////////////////////////// */
+.section2{
+    width: 100%;
+    height: 100vh;
+}
+.section2-title{
+    font-size: 50;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+}
+.section2-line{
+    width: 60;
+    height: 5;
+    background-color: rgb(1, 152, 117);
+    margin: auto;
+}
+.section2-container{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 100px;    
+}
+.div2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section2-content{
+    width: 30%;
+    height: 250px;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    font-size: 20;
+    text-transform: capitalize;
+    position: relative;
+}
+.section2-content h2{    
+    margin: 10 0;
+}
+.section2-content p{    
+    font-weight: 100;
+    color: gray;
+    text-transform: lowercase;
+}
+.section2-content i{
+    font-size: 40;
+    color: rgb(1, 152, 117);
+}
+.section2-content a{
+    color: rgb(1, 152, 117);
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.section2-content::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;  
+}
+.section2-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;    
+}
+
+/* /////////////////////////////////////// */
+.section3{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(192, 247, 192); 
+}
+.section3-title{
+    text-transform: capitalize;
+    text-align: center;
+    font-size:50;
+    padding-top: 100;
+}
+.section3-line{
+    width: 60;
+    height: 5;
+    background-color: green;
+    margin: auto;
+    
+}
+.section3-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20;
+    overflow: auto;    
+}
+.section3-content{
+    float: left;
+    width: 30%;
+    text-align: center;
+    position: relative; 
+}
+.section3-overly{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0, 0, 0.5);
+    position: absolute;
+    font-size: 20px;
+    padding-top: 100px;
+    visibility: hidden;
+    opacity: 0 ; 
+    transition: 2s ; 
+}
+.section3-img{
+    width: 80%;    
+    background-color: white;
+    margin: 10% auto;
+
+}
+.section3-overly h2{
+    color: rgb(1, 152, 147);
+    text-transform: uppercase;
+}
+.section3-overly p{
+    text-transform: lowercase;
+    color: white;
+    font-size: 20px;
+}
+.sect3-middle{
+    margin: 0% 5%;
+}
+
+.section3-content:hover .section3-overly {
+    visibility: visible;
+    opacity: 0.8;
+
+}
+
+
+/* }/////////////////////////////////////////////////////////////// */
+.section4{
+    width: 100%;
+    height: 100vh;
+}
+.section4-title{
+    text-transform: capitalize;
+    text-align: center;
+    font-size:50;
+    padding-top: 80;
+}
+.section4-line{
+    width: 60;
+    height: 5;
+    background-color: green;
+    margin: auto;    
+}
+.section4-container{
+    width: 80%;
+    overflow: auto;
+    margin: 50 auto;
+}
+.section4-content{
+    width: 30%;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.sect4-middle{
+    margin: 0 5%;
+}
+.section4-content i{
+    font-size: 35;
+    position:absolute;
+    top: 30;
+    left: 10;
+    color: green;
+}
+.section4-content h2{
+    font-size: 40;
+    padding-top: 20;
+    padding-left: 20;
+    text-transform: capitalize;
+}
+.section4-content p{
+    font-size: 20;
+    font-weight: 200;
+    padding-top: 20;
+    padding-left: 20;
+    padding-bottom: 20;
+    text-transform: capitalize;
+    color: gray;
+}
+.section4-content::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+}
+.section4-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+/* /////////////////////// */
+.section5{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color:white;
+   
+}
+
+.section5-info{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+
+}
+.section5-img{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+    position: relative;
+    
+}
+.section5-title{
+    text-transform: capitalize;
+    font-size:50;
+    padding: 100 100;
+}
+.section5-line{
+    width: 60;
+    height: 5;
+    background-color: green;
+    margin-top: -100;
+    margin-left: 100;
+    margin-bottom: 50;   
+}
+.section5-info span{
+    display: inline-block;
+    font-size: 25;
+    color: gray;
+    font-weight: 200;
+
+
+}
+.section5-info i{
+    font-size: 25;
+    color: green;
+    padding-left:100 ;
+
+}
+.section5-info p{
+    font-size: 25;
+    color: gray;
+    font-weight: 400;
+    padding: 20 50 50 100;
+
+}
+.section5-img li{
+   float: left;
+   margin-left: 35px;
+   font-size: 30;
+   color: gray;
+   
+}
+.ulcolor li{
+    color: blue;
+}
+.section5-img  li:hover{
+    color: blue;
+}
+.section5-img ul{
+padding-left: 150px;  
+}
+.section5-img-border{
+    position: absolute;
+    background-color:white;
+    top: 200;
+    left: 0;
+    overflow: auto;
+    text-align: center;
+ 
+}
+.section5-img-border img{ 
+   padding: 0 50px;
+ 
+ 
+} 
+/* /////////////////////////////////////////////////////// */
+
+.section6{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../IMG/téléchargement.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;    
+}
+.section6-overly{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0, 0.5);
+    position: absolute;
+}
+.section6-container{
+    width: 80%;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section6-content{
+    float: left;
+    text-align: center;
+    width: 20%;
+    border: 0;   
+}
+.sec6-middle{
+    margin-right: 6%;
+    margin-left: 7%;
+}
+.sec6-latest{
+       margin-left: 7%;
+}
+.section6-content i{
+    font-size: 40;
+    color: rgb(1, 152, 117);
+}
+.section6-content h2{
+    font-size: 40;
+    margin: 10 0;
+    color: white; 
+}
+.section6-content p{
+    font-size: 20;
+    text-transform: lowercase;
+    color: white;    
+}
+/* //////////////////////////////////////////////////////////////// */
+.section7{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+.section7-title{
+    text-transform: capitalize;
+    font-size:50;
+    text-align: center;
+    padding-top: 100;   
+}
+.section7-line{
+    width: 60;
+    height: 5;
+    background-color: green;
+    margin: auto;
+}
+.section7-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
+.section7-content{
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-size: 30;    
+    border: 2px solid black;    
+    position: relative;  
+}
+.sec7-middle{
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+.section7-content h3{
+    padding-top: 20px; ;
+}
+.section7-cercle{
+    width: 100;
+    height: 100;
+    border: 2px solid rgb(13, 168, 91);
+    border-radius: 50%;
+    margin: auto;
+}
+.section7-content button{
+    margin: 20 0;
+    width: 120;
+    height: 30;
+    border: 2px solid rgb(13, 168, 91);
+    background-color: inherit;  
+}
+.section7-content::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 0.5s;
+}
+.section7-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+/* ///////////////////////////////// */
+.section8{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../IMG/jewelry-photography-woman-gold-earrings-ring-necklace-feature-1280x720.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.section8-overly{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0, 0, 0.5);
+    position: absolute;
+    overflow: auto;
+}
+.section8-content{
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+ }
+.section8-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(../IMG/profile2.jpg);
+    background-size: cover; 
+    border-radius: 50%;
+    float: left;
+    margin: 100 0 0 200;
+}
+.section8-info{
+    float: left;
+    margin: 120 0 0 20;
+ 
+}
+.section8-info p{
+    color: blue;
+
+ 
+}
+.sect8-p{
+    padding-top: 200;
+    padding-left:200px;
+    font-size: 20;
+    color: rgb(2, 43, 2);
+}
+/* ///////////////////////////////////////////////////////////// */
+.section9{
+    width: 100%;
+    height: 100vh;
+}
+.section9-title{
+    text-transform: capitalize;
+    font-size:50;
+    text-align: center;
+    padding-top: 100;   
+}
+.section9-line{
+    width: 60;
+    height: 5;
+    background-color: green;
+    margin: auto;
+}
+.container {
+    width: 80%;
+    /* background-color: rgb(187, 8, 8); */
+    margin: auto;
+    margin-top: 100px;
+}
+.joaillier-item {
+    float: left;
+    width: 30%;
+    padding: 10 14;
+    background-color: gray;
+    text-align: center;
+    position: relative;   
+}
+.joaillier-center {
+    margin: 0% 5%;
+}
+.joaillier-img {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.joaillier-img img {
+    width: 100%;
+}
+.joaillier-img-overly {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5);  
+    visibility: hidden;
+    opacity: 1;
+    transition: 0.5s;
+}
+.joaillier-img a i{
+    display: block;
+    width: 40;
+    background-color: rgb(114, 138, 216);
+    font-size: 25;
+    color: white;
+    line-height: 40px;
+    margin-left: auto;
+}
+
+.joaillier-inf-title{
+    padding: 10 0;
+    text-transform: uppercase;
+}
+.joaillier-inf-p1 {
+    text-transform: capitalize;
+}
+.joaillier-item:hover  .joaillier-inf-title {
+    color: white;    
+}
+.joaillier-item:hover  .joaillier-inf-p1 {
+    color: blue;    
+}
+.joaillier-item:hover  .joaillier-img-overly {
+    visibility: visible; 
+    opacity: 0.9;  
+}
+.joaillier-item::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;    
+}
+.joaillier-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;   
+}
+/* ////////////////////////////////////////// */
+.section10{
+    width: 100%;
+    height: 100vh;
+}
+.section10-title{
+    text-transform: capitalize;
+    font-size:50;
+    text-align: center;
+    padding-top: 100;   
+}
+.section10-line{
+    width: 60;
+    height: 5;
+    background-color: green;
+    margin: auto;
+    margin-top: -10px;
+}
+.section10-container{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-top: 50px;  
+}
+.section10-content{
+    width: 30%;
+    float: left;
+    position: relative;
+   
+}
+.section10-content span{
+    text-transform: capitalize;
+ 
+}
+.sect10-middle{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section10 i{
+    margin-left: 20px;
+    color: blue;
+}
+.section10 img{
+    margin-left: 20px;
+    margin-bottom:40px ;
+}
+.section10 h2{
+    
+    margin: 20px 20px;
+}
+.section10 p{
+    margin-left: 20px;
+}
+.section10 a{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.section10-content::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+    background-color: blue;
+   
+}
+.section10-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+/* ////////////////////////////////////////////////////////////*/
+.section11{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(192, 247, 192); 
+}
+.section11 img{
+    display: block;
+    margin: auto;
+    padding-top:100px ;
+}
+.section11 i{
+    font-size: 30;
+    margin-top: 20px;
+    color: rgb(77, 18, 241);
+}
+.section11 p{
+    margin-top:20px ;
+    text-transform: uppercase;
+    color: gray;
+}
+/* ////////////////////////////FIN/////////////////////////////// */
+    
